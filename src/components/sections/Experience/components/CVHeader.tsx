@@ -19,15 +19,15 @@ export function CVHeader() {
       <Container>
         <AnimatedSection className="space-y-4">
           <div className="space-y-1">
-            <h1 className="text-2xl font-semibold tracking-tight">Roman Frolov</h1>
-            <p className="text-muted-foreground text-sm">Software Engineer</p>
+            <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">Roman Frolov</h1>
+            <p className="text-lg text-muted-foreground">Software Engineer</p>
             <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
               <MapPin className="h-3.5 w-3.5 shrink-0" />
               <span>Berlin, Germany</span>
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4 pt-1">
             <a
               href="https://github.com/Lacsw"
               {...EXTERNAL_LINK_PROPS}
